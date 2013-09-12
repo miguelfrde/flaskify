@@ -11,12 +11,15 @@ Right now it creates a folder structure as follows:
 <br />……app.py
 <br />……models/
 <br />……templates/
+<br />………img/
+<br />………fonts/
 <br />………js/
 <br />…………script.js
 <br />………css/
 <br />…………style.css
 <br />………base.html
 
+If the option --bootstrap is activated, then the latest version of Bootstrap is downloaded and the bootstrap files (js, css, fonts) are moved to their corresponding directory inside templates.
 
 The base.html and app.py contain a basic boilerplate for each one.
 
